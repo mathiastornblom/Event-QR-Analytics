@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		5FF7B02B2BD3B94C00043D13 /* Event_QR_AnalyticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7B02A2BD3B94C00043D13 /* Event_QR_AnalyticsApp.swift */; };
-		5FF7B02D2BD3B94C00043D13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7B02C2BD3B94C00043D13 /* ContentView.swift */; };
 		5FF7B02F2BD3B94D00043D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF7B02E2BD3B94D00043D13 /* Assets.xcassets */; };
 		5FF7B0322BD3B94D00043D13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF7B0312BD3B94D00043D13 /* Preview Assets.xcassets */; };
+		5FF7B03C2BD3B9D800043D13 /* ScanningDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7B03B2BD3B9D800043D13 /* ScanningDataViewModel.swift */; };
+		5FF7B0422BD3BA6E00043D13 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7B0412BD3BA6E00043D13 /* DashboardView.swift */; };
+		5FF7B0442BD3BA8600043D13 /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7B0432BD3BA8600043D13 /* StationDetailView.swift */; };
+		5FF7B0462BD3BAAA00043D13 /* NavigationViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7B0452BD3BAAA00043D13 /* NavigationViewManager.swift */; };
+		5FF7B05E2BD469F800043D13 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF7B05D2BD469F800043D13 /* Charts.framework */; };
+		5FF7B0632BD47B4300043D13 /* ScanningStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7B0622BD47B4300043D13 /* ScanningStation.swift */; };
+		5FF7B0652BD47B5600043D13 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7B0642BD47B5600043D13 /* Team.swift */; };
+		5FF7B06D2BD85EF600043D13 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF7B06C2BD85EF600043D13 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5FF7B0272BD3B94C00043D13 /* Event QR Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event QR Analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF7B02A2BD3B94C00043D13 /* Event_QR_AnalyticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event_QR_AnalyticsApp.swift; sourceTree = "<group>"; };
-		5FF7B02C2BD3B94C00043D13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FF7B02E2BD3B94D00043D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FF7B0312BD3B94D00043D13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FF7B03B2BD3B9D800043D13 /* ScanningDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningDataViewModel.swift; sourceTree = "<group>"; };
+		5FF7B0412BD3BA6E00043D13 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		5FF7B0432BD3BA8600043D13 /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
+		5FF7B0452BD3BAAA00043D13 /* NavigationViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewManager.swift; sourceTree = "<group>"; };
+		5FF7B05D2BD469F800043D13 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
+		5FF7B0622BD47B4300043D13 /* ScanningStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningStation.swift; sourceTree = "<group>"; };
+		5FF7B0642BD47B5600043D13 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		5FF7B06C2BD85EF600043D13 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		5FF7B06E2BD8663500043D13 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF7B05E2BD469F800043D13 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +51,10 @@
 		5FF7B01E2BD3B94C00043D13 = {
 			isa = PBXGroup;
 			children = (
+				5FF7B06E2BD8663500043D13 /* PrivacyInfo.xcprivacy */,
 				5FF7B0292BD3B94C00043D13 /* Event QR Analytics */,
 				5FF7B0282BD3B94C00043D13 /* Products */,
+				5FF7B04F2BD4657800043D13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +69,10 @@
 		5FF7B0292BD3B94C00043D13 /* Event QR Analytics */ = {
 			isa = PBXGroup;
 			children = (
+				5FF7B03A2BD3B99200043D13 /* ViewModels */,
+				5FF7B0392BD3B97900043D13 /* Views */,
+				5FF7B0382BD3B96E00043D13 /* Models */,
 				5FF7B02A2BD3B94C00043D13 /* Event_QR_AnalyticsApp.swift */,
-				5FF7B02C2BD3B94C00043D13 /* ContentView.swift */,
 				5FF7B02E2BD3B94D00043D13 /* Assets.xcassets */,
 				5FF7B0302BD3B94D00043D13 /* Preview Content */,
 			);
@@ -65,6 +85,42 @@
 				5FF7B0312BD3B94D00043D13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FF7B0382BD3B96E00043D13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FF7B0622BD47B4300043D13 /* ScanningStation.swift */,
+				5FF7B0642BD47B5600043D13 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FF7B0392BD3B97900043D13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5FF7B0412BD3BA6E00043D13 /* DashboardView.swift */,
+				5FF7B0432BD3BA8600043D13 /* StationDetailView.swift */,
+				5FF7B0452BD3BAAA00043D13 /* NavigationViewManager.swift */,
+				5FF7B06C2BD85EF600043D13 /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5FF7B03A2BD3B99200043D13 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5FF7B03B2BD3B9D800043D13 /* ScanningDataViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5FF7B04F2BD4657800043D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FF7B05D2BD469F800043D13 /* Charts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +164,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				sv,
 			);
 			mainGroup = 5FF7B01E2BD3B94C00043D13;
 			productRefGroup = 5FF7B0282BD3B94C00043D13 /* Products */;
@@ -137,8 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF7B02D2BD3B94C00043D13 /* ContentView.swift in Sources */,
+				5FF7B0422BD3BA6E00043D13 /* DashboardView.swift in Sources */,
+				5FF7B06D2BD85EF600043D13 /* SplashView.swift in Sources */,
 				5FF7B02B2BD3B94C00043D13 /* Event_QR_AnalyticsApp.swift in Sources */,
+				5FF7B03C2BD3B9D800043D13 /* ScanningDataViewModel.swift in Sources */,
+				5FF7B0462BD3BAAA00043D13 /* NavigationViewManager.swift in Sources */,
+				5FF7B0652BD47B5600043D13 /* Team.swift in Sources */,
+				5FF7B0442BD3BA8600043D13 /* StationDetailView.swift in Sources */,
+				5FF7B0632BD47B4300043D13 /* ScanningStation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +337,8 @@
 				DEVELOPMENT_TEAM = 7ZVZS46BYP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Event QR Analytics";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,9 +351,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tornbloms.Event-QR-Analytics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +372,8 @@
 				DEVELOPMENT_TEAM = 7ZVZS46BYP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Event QR Analytics";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,9 +386,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.tornbloms.Event-QR-Analytics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

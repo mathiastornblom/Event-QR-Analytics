@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct NavigationViewManager: View {
+    @StateObject var viewModel = ScanningDataViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            DashboardView(viewModel: viewModel)
+        }
     }
 }
 
-#Preview {
-    NavigationViewManager()
+struct NavigationViewManager_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationViewManager()
+    }
 }

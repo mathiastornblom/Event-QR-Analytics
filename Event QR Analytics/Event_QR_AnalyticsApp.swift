@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Event_QR_AnalyticsApp: App {
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
